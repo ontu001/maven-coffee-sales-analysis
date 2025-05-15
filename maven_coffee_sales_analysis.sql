@@ -154,7 +154,7 @@ order by 2 desc;
 
 
 
--- 👥 Customer Behavior (Inferred)👥 Customer Behavior (Inferred) --
+-- 👥 Customer Behavior (Inferred)👥
 
 -- What is the average number of items per transaction?
 select round(sum(transaction_qty) / count(distinct transaction_id), 2) as avg_items_per_transaction
